@@ -105,6 +105,20 @@ const portfolioData = {
       href: "https://issuu.com/thehhsepitaph/docs/the_epitaph_volume_63_issue_3_2025-26",
       image: "https://static.wixstatic.com/media/ef1e20_cdb04100a0a34b6e85198a063cb0dec2~mv2.jpeg/v1/fill/w_373,h_280,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/ef1e20_cdb04100a0a34b6e85198a063cb0dec2~mv2.jpeg",
     },
+    {
+      title: "Music department hosts orchestra festival",
+      href: "https://issuu.com/thehhsepitaph/docs/the_epitaph_volume_63_issue_4_2025-26",
+      image: "https://image.isu.pub/260131205411-293aa5efe527061dd2dbdc95428876a1/jpg/page_1.jpg",
+      imagePosition: "left bottom",
+      description: "News reporting, co-written with Sanjeet Jayaseelan.",
+    },
+    {
+      title: "BSU spirit week brings Black history to life",
+      href: "https://issuu.com/thehhsepitaph/docs/the_epitaph_volume_63_issue_4_2025-26",
+      image: "https://image.isu.pub/260131205411-293aa5efe527061dd2dbdc95428876a1/jpg/page_7.jpg",
+      imagePosition: "right center",
+      description: "Lifestyles reporting.",
+    },
   ],
   multimedia: [
     {
@@ -116,6 +130,13 @@ const portfolioData = {
       title: "Superbowl reel",
       href: "https://www.instagram.com/reel/DF3Uvv6z2jN/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
       image: "https://static.wixstatic.com/media/ef1e20_6372f3d83cf5476290d1ce58d6f0f29d~mv2.png/v1/fill/w_189,h_337,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ef1e20_6372f3d83cf5476290d1ce58d6f0f29d~mv2.png",
+    },
+    {
+      title: "BSU spirit week: celebrating Black culture",
+      href: "https://issuu.com/thehhsepitaph/docs/the_epitaph_volume_63_issue_4_2025-26",
+      image: "https://image.isu.pub/260131205411-293aa5efe527061dd2dbdc95428876a1/jpg/page_7.jpg",
+      imagePosition: "right bottom",
+      description: "Photograph published in Volume 63, Issue 4.",
     },
   ],
   social: [
@@ -224,6 +245,7 @@ function createPortfolioCard(item, type) {
   image.src = item.image;
   image.alt = item.title;
   image.loading = "lazy";
+  if (item.imagePosition) image.style.objectPosition = item.imagePosition;
 
   const body = document.createElement("div");
   body.className = "portfolio-card-body";
@@ -242,7 +264,8 @@ function createPortfolioCard(item, type) {
 
   const description = document.createElement("p");
   description.textContent =
-    type === "social" ? "Social media coverage." : type === "multimedia" ? "Multimedia reporting." : "Published work.";
+    item.description ||
+    (type === "social" ? "Social media coverage." : type === "multimedia" ? "Multimedia reporting." : "Published work.");
 
   const link = document.createElement("a");
   link.href = item.href;
