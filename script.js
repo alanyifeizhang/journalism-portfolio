@@ -244,6 +244,11 @@ const portfolioData = {
       href: "https://www.instagram.com/p/DQ0iX_8kbNT/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
       image: "https://static.wixstatic.com/media/ef1e20_1a611c2cf82b439f881c385e51e30a23~mv2.png/v1/fill/w_421,h_286,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ef1e20_1a611c2cf82b439f881c385e51e30a23~mv2.png",
     },
+    {
+      title: "8th Grade Course Info Night",
+      href: "https://www.instagram.com/p/DUE8nX3lCMk/",
+      image: "assets/8th-grade-course-info-night.jpg",
+    },
   ],
 };
 
