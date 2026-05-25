@@ -31,7 +31,7 @@ const portfolioData = {
       image: "https://static.wixstatic.com/media/ef1e20_9dee693d4c2941129af1812d18a5d186~mv2.png/v1/fill/w_490,h_490,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ef1e20_9dee693d4c2941129af1812d18a5d186~mv2.png",
     },
     {
-      title: "Robotics team rolls toward upcoming...",
+      title: "Robotics team rolls toward upcoming competition",
       href: "https://issuu.com/thehhsepitaph/docs/issue_4_1ccde917a6a620",
       image: "https://static.wixstatic.com/media/ef1e20_31303eb1b3ff48a2abe7a09810ec59ae~mv2.png/v1/fill/w_446,h_333,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ef1e20_31303eb1b3ff48a2abe7a09810ec59ae~mv2.png",
     },
@@ -41,7 +41,7 @@ const portfolioData = {
       image: "https://static.wixstatic.com/media/ef1e20_be3a3d096e1e430fa60f9091c4b5b3e5~mv2.jpg/v1/fill/w_446,h_297,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/ef1e20_be3a3d096e1e430fa60f9091c4b5b3e5~mv2.jpg",
     },
     {
-      title: "Trustees begin term following new...",
+      title: "Trustees begin term following new election system",
       href: "https://issuu.com/thehhsepitaph/docs/issue_4_1ccde917a6a620",
       image: "https://static.wixstatic.com/media/ef1e20_1fd8f2ebbe1d4dedb4794f6678187529~mv2.jpg/v1/fill/w_446,h_297,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/ef1e20_1fd8f2ebbe1d4dedb4794f6678187529~mv2.jpg",
     },
@@ -56,12 +56,12 @@ const portfolioData = {
       image: "https://static.wixstatic.com/media/ef1e20_8fbcdfd3b6cc4f2281945ab2c5985ac0~mv2.jpg/v1/fill/w_446,h_297,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/ef1e20_8fbcdfd3b6cc4f2281945ab2c5985ac0~mv2.jpg",
     },
     {
-      title: "Student-led nonprofit introduces...",
+      title: "Student-led nonprofit introduces colorful path to activism",
       href: "https://issuu.com/thehhsepitaph/docs/homestead_high_school_s_student_newspaper_the_epit",
       image: "https://static.wixstatic.com/media/ef1e20_0954aa71d4af47c7b0e05504b9a4aa83~mv2.jpeg/v1/fill/w_417,h_313,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/ef1e20_0954aa71d4af47c7b0e05504b9a4aa83~mv2.jpeg",
     },
     {
-      title: "WASC concludes six-year accreditation...",
+      title: "WASC concludes six-year accreditation cycle",
       href: "https://issuu.com/thehhsepitaph/docs/the_epitaph_volume_62_issue_6_2024-25",
       image: "https://static.wixstatic.com/media/ef1e20_601a26e73d7346ae9cfa3e3fb8ca492a~mv2.jpg/v1/fill/w_446,h_295,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/ef1e20_601a26e73d7346ae9cfa3e3fb8ca492a~mv2.jpg",
     },
@@ -76,7 +76,7 @@ const portfolioData = {
       image: "https://static.wixstatic.com/media/ef1e20_c03ffd8bc0604440ae0c96de1bc7ca8a~mv2.jpg/v1/fill/w_239,h_319,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/ef1e20_c03ffd8bc0604440ae0c96de1bc7ca8a~mv2.jpg",
     },
     {
-      title: "Traditional dance allows cultural identity to",
+      title: "Traditional dance allows cultural identity to flourish",
       href: "https://issuu.com/thehhsepitaph/docs/the_epitaph_volume_63_issue_1_2025-26",
       image: "https://static.wixstatic.com/media/ef1e20_2fba65c5b0d74defb8c07b6a3d6407cc~mv2.jpg/v1/fill/w_429,h_286,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/ef1e20_2fba65c5b0d74defb8c07b6a3d6407cc~mv2.jpg",
     },
@@ -86,7 +86,7 @@ const portfolioData = {
       image: "https://static.wixstatic.com/media/ef1e20_7de805a9aecb4c2fbc7dd4e372c08b0f~mv2.jpg/v1/fill/w_400,h_267,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/ef1e20_7de805a9aecb4c2fbc7dd4e372c08b0f~mv2.jpg",
     },
     {
-      title: "TSA to bring back Taiwanese...",
+      title: "TSA to bring back Taiwanese night market",
       href: "https://issuu.com/thehhsepitaph/docs/the_epitaph_volume_63_issue_2_2025-26",
       image: "https://static.wixstatic.com/media/ef1e20_53a8da19562c4cd58104ab8c5a06be02~mv2.jpg/v1/fill/w_400,h_267,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/ef1e20_53a8da19562c4cd58104ab8c5a06be02~mv2.jpg",
     },
@@ -96,12 +96,12 @@ const portfolioData = {
       image: "https://static.wixstatic.com/media/ef1e20_f62e7d993e1e406eb8af88a4cb94d7e3~mv2.png/v1/fill/w_306,h_408,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ef1e20_f62e7d993e1e406eb8af88a4cb94d7e3~mv2.png",
     },
     {
-      title: "JV field hockey scores big with...",
+      title: "JV field hockey scores big with large roster",
       href: "https://hhsepitaph.com/15706/sports/jv-field-hockey-scores-big-with-large-roster/",
       image: "https://static.wixstatic.com/media/ef1e20_078ec48fdc214d3ba81e28b2e4e95626~mv2.png/v1/fill/w_400,h_266,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ef1e20_078ec48fdc214d3ba81e28b2e4e95626~mv2.png",
     },
     {
-      title: "FNHS build linguistic bridges...",
+      title: "FNHS builds linguistic bridges with local pen pal activity",
       href: "https://issuu.com/thehhsepitaph/docs/the_epitaph_volume_63_issue_3_2025-26",
       image: "https://static.wixstatic.com/media/ef1e20_cdb04100a0a34b6e85198a063cb0dec2~mv2.jpeg/v1/fill/w_373,h_280,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/ef1e20_cdb04100a0a34b6e85198a063cb0dec2~mv2.jpeg",
     },
