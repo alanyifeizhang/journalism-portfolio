@@ -108,13 +108,13 @@ const portfolioData = {
     {
       title: "Music department hosts orchestra festival",
       href: "https://issuu.com/thehhsepitaph/docs/the_epitaph_volume_63_issue_4_2025-26",
-      image: "assets/issue-4-orchestra-festival.jpg",
+      image: "assets/issue-4-orchestra-supplied.jpg",
       description: "News reporting, co-written with Sanjeet Jayaseelan.",
     },
     {
       title: "BSU spirit week brings Black history to life",
       href: "https://issuu.com/thehhsepitaph/docs/the_epitaph_volume_63_issue_4_2025-26",
-      image: "assets/issue-4-bsu-spirit-week.jpg",
+      image: "assets/issue-4-bsu-supplied.jpg",
       description: "Lifestyles reporting.",
     },
   ],
