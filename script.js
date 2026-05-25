@@ -15,7 +15,7 @@ const portfolioData = {
     {
       title: "Shift in role causes ASB changes",
       href: "https://issuu.com/thehhsepitaph/docs/issue_1_689891e0cbea1b",
-      image: "assets/shift-in-role-asb-article.jpg",
+      image: "assets/shift-in-role-wix.jpg",
       description: "Leadership teacher, ASB students reflect on adjustment",
     },
     {
