@@ -163,8 +163,7 @@ input {
   text-transform: uppercase;
 }
 
-.hero .eyebrow,
-.contact-section .eyebrow {
+.hero .eyebrow {
   color: #f0b35c;
 }
 
@@ -207,8 +206,7 @@ h3 {
   font-size: 1.18rem;
 }
 
-.hero-actions,
-.contact-actions {
+.hero-actions {
   display: flex;
   flex-wrap: wrap;
   gap: 0.8rem;
@@ -308,8 +306,7 @@ a:focus-visible {
 }
 
 .section,
-.about-section,
-.contact-section {
+.about-section {
   width: min(1160px, 90vw);
   margin: 0 auto;
   padding: 5.2rem 0;
@@ -471,23 +468,6 @@ a:focus-visible {
   font-weight: 800;
 }
 
-.contact-section {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 2rem;
-  margin-bottom: 4rem;
-  padding: 3rem;
-  color: var(--paper-soft);
-  background: var(--ink);
-  border-radius: 8px;
-  box-shadow: var(--shadow);
-}
-
-.contact-section h2 {
-  max-width: 760px;
-}
-
 .site-footer {
   display: flex;
   justify-content: space-between;
@@ -522,8 +502,7 @@ a:focus-visible {
     grid-template-columns: 1fr;
   }
 
-  .intro-inner,
-  .contact-section {
+  .intro-inner {
     align-items: flex-start;
     flex-direction: column;
   }
@@ -602,8 +581,7 @@ a:focus-visible {
 
   .intro-inner,
   .section,
-  .about-section,
-  .contact-section {
+  .about-section {
     width: 90vw;
   }
 
@@ -624,12 +602,6 @@ a:focus-visible {
     grid-template-columns: 52px minmax(0, 1fr);
   }
 
-  .contact-section {
-    margin-bottom: 2.5rem;
-    padding: 2rem;
-  }
-
-  .contact-actions,
   .hero-actions {
     width: 100%;
   }
