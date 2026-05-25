@@ -150,6 +150,24 @@ const portfolioData = {
       image: "assets/game-review-varsity-boys-basketball.jpg",
       description: "Mustangs start slow, but improve to have a dominant win",
     },
+    {
+      title: "C-Night celebrates culture",
+      href: "https://issuu.com/thehhsepitaph/docs/the_epitaph_volume_63_issue_5_2025-26",
+      image: "assets/cycle-5-c-night-color.jpg",
+      description: "Chinese department, clubs collaborate for annual event",
+    },
+    {
+      title: "Freshmen kick off soccer careers with MLS Next",
+      href: "https://issuu.com/thehhsepitaph/docs/the_epitaph_volume_63_issue_5_2025-26",
+      image: "assets/cycle-5-mls-next-split.jpg",
+      description: "Students give time to club soccer in pursuit of opportunities",
+    },
+    {
+      title: "Patients misdiagnose their issues",
+      href: "https://issuu.com/thehhsepitaph/docs/the_epitaph_volume_63_issue_5_2025-26",
+      image: "assets/cycle-5-patients-misdiagnose.png",
+      description: "System deserves more blame than doctors",
+    },
   ],
   multimedia: [
     {
