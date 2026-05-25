@@ -15,20 +15,26 @@ const portfolioData = {
     {
       title: "Shift in role causes ASB changes",
       href: "https://issuu.com/thehhsepitaph/docs/issue_1_689891e0cbea1b",
-      image: "https://static.wixstatic.com/media/ef1e20_861a0cbf9aed468b8f780bb6461007aa~mv2.png/v1/fill/w_293,h_391,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ef1e20_861a0cbf9aed468b8f780bb6461007aa~mv2.png",
+      image: "assets/shift-in-role-asb-article.jpg",
       description: "Leadership teacher, ASB students reflect on adjustment",
     },
     {
       title: "More than just a resource",
       href: "https://issuu.com/thehhsepitaph/docs/issue_2_f26135a40978de",
-      image: "https://static.wixstatic.com/media/ef1e20_d22e97dab2f5428d821725490767e3ac~mv2.jpg/v1/fill/w_446,h_297,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/ef1e20_d22e97dab2f5428d821725490767e3ac~mv2.jpg",
+      image: "assets/more-than-a-resource-photo.jpg",
       description: "Student-tutor relationships foster effective learning",
     },
     {
       title: "Science olympiad triggers members' personal development",
       href: "https://hhsepitaph.com/15244/lifestyles/science-olympiad-triggers-members-personal-development/",
-      image: "https://static.wixstatic.com/media/ef1e20_7a16cc9c464d40a5bfb17baa7528f4e9~mv2.jpg/v1/fill/w_446,h_297,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/ef1e20_7a16cc9c464d40a5bfb17baa7528f4e9~mv2.jpg",
-      description: "Members develop problem-solving, teamwork skills",
+      image: "assets/science-olympiad.jpg",
+      description: "Members, officers discuss effects of club on work habits",
+    },
+    {
+      title: "Quiz Bowl offers more than just competition",
+      href: "https://issuu.com/thehhsepitaph/docs/issue_3_7a51763858b60c",
+      image: "assets/quiz-bowl.jpg",
+      description: "Officers discuss unique club atmosphere",
     },
     {
       title: "HHS must speak up for public speaking curriculum",
