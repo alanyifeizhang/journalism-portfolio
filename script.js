@@ -267,6 +267,16 @@ const portfolioData = {
       href: "https://www.instagram.com/p/DUE8nX3lCMk/",
       image: "assets/8th-grade-course-info-night.jpg",
     },
+    {
+      title: "ICE Walkout",
+      href: "https://www.instagram.com/hhsepitaph/p/DUW9gXWlO2r/",
+      image: "assets/ice-walkout-instagram.jpg",
+    },
+    {
+      title: "C-Night",
+      href: "https://www.instagram.com/hhsepitaph/p/DVMzQH6D1hL/",
+      image: "assets/c-night-instagram.jpg",
+    },
   ],
 };
 
