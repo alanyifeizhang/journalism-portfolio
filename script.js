@@ -168,6 +168,18 @@ const portfolioData = {
       image: "assets/cycle-5-patients-misdiagnose.png",
       description: "System deserves more blame than doctors",
     },
+    {
+      title: "Media magic has lost its morals",
+      href: "https://issuu.com/thehhsepitaph/docs/the_epitaph_volume_63_issue_6_2025-26",
+      image: "assets/cycle-6-media-magic.png",
+      description: "Entertainment raises ethical concerns",
+    },
+    {
+      title: "JNHS innovates, prepares for annual J-Night festival",
+      href: "https://issuu.com/thehhsepitaph/docs/the_epitaph_volume_63_issue_6_2025-26",
+      image: "assets/cycle-6-j-night.jpg",
+      description: "J-Night to showcase culture, student work for community",
+    },
   ],
   multimedia: [
     {
@@ -179,6 +191,11 @@ const portfolioData = {
       title: "Superbowl reel",
       href: "https://www.instagram.com/reel/DF3Uvv6z2jN/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
       image: "https://static.wixstatic.com/media/ef1e20_6372f3d83cf5476290d1ce58d6f0f29d~mv2.png/v1/fill/w_189,h_337,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ef1e20_6372f3d83cf5476290d1ce58d6f0f29d~mv2.png",
+    },
+    {
+      title: "The Epitaph learns languages not taught at HHS",
+      href: "https://www.youtube.com/watch?v=KnQRCmBL1Mo",
+      image: "assets/languages-not-taught-youtube.jpg",
     },
   ],
   social: [
@@ -277,6 +294,11 @@ const portfolioData = {
       href: "https://www.instagram.com/hhsepitaph/p/DVMzQH6D1hL/",
       image: "assets/c-night-instagram.jpg",
     },
+    {
+      title: "Bon Voyage Concert",
+      href: "https://www.instagram.com/hhsepitaph/p/DWIqHVaFfcB/",
+      image: "assets/bon-voyage-instagram.jpg",
+    },
   ],
 };
 
@@ -288,6 +310,7 @@ const labelByType = {
 
 function sourceLabel(url) {
   if (url.includes("instagram.com")) return "Instagram";
+  if (url.includes("youtube.com") || url.includes("youtu.be")) return "YouTube";
   if (url.includes("issuu.com")) return "Issuu";
   if (url.includes("drive.google.com")) return "Google Drive";
   if (url.includes("filesusr.com")) return "PDF";
