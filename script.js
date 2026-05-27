@@ -180,6 +180,18 @@ const portfolioData = {
       image: "assets/cycle-6-j-night.jpg",
       description: "J-Night to showcase culture, student work for community",
     },
+    {
+      title: "District, school plan to replace aging C, L buildings",
+      href: "https://issuu.com/thehhsepitaph/docs/the_epitaph_volume_63_issue_7_2025-26",
+      image: "assets/cycle-7-c-l-buildings.jpg",
+      description: "Original buildings to be revamped, modernized",
+    },
+    {
+      title: "Spanish department, clubs plan first H-Night",
+      href: "https://issuu.com/thehhsepitaph/docs/the_epitaph_volume_63_issue_7_2025-26",
+      image: "assets/cycle-7-noche-hispana.jpg",
+      description: "Event aims to showcase Hispanic culture",
+    },
   ],
   multimedia: [
     {
@@ -196,6 +208,11 @@ const portfolioData = {
       title: "The Epitaph learns languages not taught at HHS",
       href: "https://www.youtube.com/watch?v=KnQRCmBL1Mo",
       image: "assets/languages-not-taught-youtube.jpg",
+    },
+    {
+      title: "C, L buildings redesign infographic",
+      href: "https://issuu.com/thehhsepitaph/docs/the_epitaph_volume_63_issue_7_2025-26",
+      image: "assets/cycle-7-c-l-infographic.png",
     },
   ],
   social: [
@@ -298,6 +315,11 @@ const portfolioData = {
       title: "Bon Voyage Concert",
       href: "https://www.instagram.com/hhsepitaph/p/DWIqHVaFfcB/",
       image: "assets/bon-voyage-instagram.jpg",
+    },
+    {
+      title: "Spring Fling",
+      href: "https://www.instagram.com/hhsepitaph/p/DXk7MJ-mzxC/",
+      image: "assets/spring-fling-instagram.jpg",
     },
   ],
 };
