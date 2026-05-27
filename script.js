@@ -189,7 +189,7 @@ const portfolioData = {
     {
       title: "Spanish department, clubs plan first H-Night",
       href: "https://issuu.com/thehhsepitaph/docs/the_epitaph_volume_63_issue_7_2025-26",
-      image: "assets/cycle-7-noche-hispana.jpg",
+      image: "assets/cycle-7-noche-hispana-color.jpg",
       description: "Event aims to showcase Hispanic culture",
     },
   ],
