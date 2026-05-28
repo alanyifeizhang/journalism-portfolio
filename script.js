@@ -192,6 +192,21 @@ const portfolioData = {
       image: "assets/cycle-7-noche-hispana-color.jpg",
       description: "Event aims to showcase Hispanic culture",
     },
+    {
+      title: "Community gathers at inaugural Hispanic event",
+      href: "https://issuu.com/thehhsepitaph/docs/the_epitaph_volume_63_issue_8_2025-26",
+      image: "assets/cycle-8-noche-hispana.jpg",
+      description: "Students learn, appreciate culture at Noche Hispana",
+    },
+    {
+      title: "Multisport athletes keep every season in play",
+      href: "https://issuu.com/thehhsepitaph/docs/the_epitaph_volume_63_issue_8_2025-26",
+      images: [
+        "assets/cycle-8-zorez-syed.jpg",
+        "assets/cycle-8-leonardo-gonzalez.jpg",
+      ],
+      description: "Zorez Syed, Leonardo Gonzalez reflect on journeys",
+    },
   ],
   multimedia: [
     {
@@ -321,6 +336,11 @@ const portfolioData = {
       href: "https://www.instagram.com/hhsepitaph/p/DXk7MJ-mzxC/",
       image: "assets/spring-fling-instagram.jpg",
     },
+    {
+      title: "Earth Week Day 2",
+      href: "https://www.instagram.com/hhsepitaph/p/DYoPkzRm1R5/",
+      image: "assets/earth-week-day-2-instagram.jpg",
+    },
   ],
 };
 
@@ -343,10 +363,7 @@ function createPortfolioCard(item, type) {
   const card = document.createElement("article");
   card.className = "portfolio-card";
 
-  const image = document.createElement("img");
-  image.src = item.image;
-  image.alt = item.title;
-  image.loading = "lazy";
+  const media = item.images ? createSplitImage(item) : createImage(item.image, item.title);
 
   const body = document.createElement("div");
   body.className = "portfolio-card-body";
@@ -377,8 +394,31 @@ function createPortfolioCard(item, type) {
 
   meta.append(format, source);
   body.append(meta, title, description, link);
-  card.append(image, body);
+  card.append(media, body);
   return card;
+}
+
+function createImage(src, alt) {
+  const image = document.createElement("img");
+  image.src = src;
+  image.alt = alt;
+  image.loading = "lazy";
+  return image;
+}
+
+function createSplitImage(item) {
+  const split = document.createElement("div");
+  split.className = "split-image";
+  split.setAttribute("role", "img");
+  split.setAttribute("aria-label", item.title);
+
+  item.images.forEach((src) => {
+    const image = createImage(src, "");
+    image.setAttribute("aria-hidden", "true");
+    split.append(image);
+  });
+
+  return split;
 }
 
 function renderPortfolio() {

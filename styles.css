@@ -382,6 +382,25 @@ a:focus-visible {
   border-bottom: 1px solid var(--line);
 }
 
+.split-image {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background: #e9dfd2;
+  border-bottom: 1px solid var(--line);
+}
+
+.split-image img {
+  height: 100%;
+  aspect-ratio: auto;
+  border-bottom: 0;
+}
+
+.split-image img:first-child {
+  border-right: 1px solid var(--line);
+}
+
 .portfolio-card-body {
   display: flex;
   flex: 1;
