@@ -448,6 +448,11 @@ a:focus-visible {
   font-size: 1.05rem;
 }
 
+.about-side {
+  display: grid;
+  gap: 1.35rem;
+}
+
 .profile-facts {
   border-left: 3px solid var(--red);
   padding-left: 1.4rem;
@@ -473,6 +478,35 @@ a:focus-visible {
 .profile-fact a {
   color: var(--red);
   font-weight: 800;
+}
+
+.contact-card {
+  display: grid;
+  gap: 0.8rem;
+  padding: 1rem;
+  background: var(--paper-soft);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.contact-card .eyebrow {
+  margin: 0 0 0.1rem;
+  color: var(--teal);
+}
+
+.contact-card a {
+  display: grid;
+  gap: 0.15rem;
+  color: var(--red);
+  font-weight: 900;
+  overflow-wrap: anywhere;
+}
+
+.contact-card span {
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 900;
+  text-transform: uppercase;
 }
 
 .site-footer {
