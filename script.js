@@ -207,6 +207,21 @@ const portfolioData = {
       ],
       description: "Zorez Syed, Leonardo Gonzalez reflect on journeys",
     },
+    {
+      title: "“Cornell Seven” sparks multi-school protest",
+      href: "https://hhsepitaph.com/16642/news/cornell-seven-sparks-multi-school-protest/",
+      image: "assets/v64-issue-1-cornell-seven.jpg",
+    },
+    {
+      title: "News in a minute",
+      href: "https://issuu.com/thehhsepitaph/docs/the_epitaph_volume_64_issue_1_2026-27",
+      image: "assets/v64-issue-1-news-in-a-minute.png",
+    },
+    {
+      title: "“Artist” cannot be spelled without the “art”",
+      href: "https://issuu.com/thehhsepitaph/docs/the_epitaph_volume_64_issue_1_2026-27",
+      image: "assets/v64-issue-1-artist-art.png",
+    },
   ],
   multimedia: [
     {
@@ -340,6 +355,11 @@ const portfolioData = {
       title: "Earth Week Day 2",
       href: "https://www.instagram.com/hhsepitaph/p/DYoPkzRm1R5/",
       image: "assets/earth-week-day-2-instagram.jpg",
+    },
+    {
+      title: "Women’s Rights Protest",
+      href: "https://www.instagram.com/p/DeBD3b0G6S2/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==",
+      image: "assets/womens-rights-protest-instagram.jpg",
     },
   ],
 };
