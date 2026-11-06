@@ -672,3 +672,77 @@ a:focus-visible {
   }
 
 }
+
+/* News in a minute archive pop-up */
+.nim-dialog {
+  width: min(92vw, 440px);
+  padding: 1.25rem;
+  color: var(--ink);
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}
+
+.nim-dialog::backdrop {
+  background: rgba(23, 21, 19, 0.55);
+}
+
+.nim-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.nim-head h2 {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+.nim-close {
+  min-height: 40px;
+  padding: 0 0.9rem;
+  color: var(--ink);
+  background: var(--paper-soft);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  font: inherit;
+  cursor: pointer;
+}
+
+.nim-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  min-height: 56px;
+  padding: 0.8rem 1rem;
+  color: var(--ink);
+  background: var(--paper-soft);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.nim-row + .nim-row {
+  margin-top: 0.6rem;
+}
+
+.nim-row:hover {
+  background: var(--white);
+  border-color: var(--red);
+}
+
+.nim-row:focus-visible,
+.nim-close:focus-visible {
+  outline: 3px solid var(--teal);
+  outline-offset: 2px;
+}
+
+.nim-row span {
+  color: var(--red);
+  font-weight: 700;
+}

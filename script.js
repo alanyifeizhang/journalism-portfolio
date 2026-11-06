@@ -211,16 +211,37 @@ const portfolioData = {
       title: "“Cornell Seven” sparks multi-school protest",
       href: "https://hhsepitaph.com/16642/news/cornell-seven-sparks-multi-school-protest/",
       image: "assets/v64-issue-1-cornell-seven.jpg",
-    },
-    {
-      title: "News in a minute",
-      href: "https://issuu.com/thehhsepitaph/docs/the_epitaph_volume_64_issue_1_2026-27",
-      image: "assets/v64-issue-1-news-in-a-minute.png",
+      description: "HHS, FHS, SMS, CMS students walk out, support women’s rights",
     },
     {
       title: "“Artist” cannot be spelled without the “art”",
       href: "https://issuu.com/thehhsepitaph/docs/the_epitaph_volume_64_issue_1_2026-27",
       image: "assets/v64-issue-1-artist-art.png",
+      description: "Separating problematic artists from their work raises moral concerns",
+    },
+    {
+      title: "Prop 3 con",
+      href: "https://issuu.com/thehhsepitaph/docs/the_epitaph_volume_64_issue_2_2026-27",
+      image: "assets/prop-3-con.png",
+      description: "Measure raises costs, reduces accountability",
+    },
+    {
+      title: "Stampeding with energy",
+      href: "https://issuu.com/thehhsepitaph/docs/the_epitaph_volume_64_issue_2_2026-27",
+      image: "assets/stampeding-with-energy.jpg",
+      description: "Scream Team sparks school spirit on game days",
+    },
+    {
+      title: "Wellness center launches virtual reality resources",
+      href: "https://issuu.com/thehhsepitaph/docs/the_epitaph_volume_64_issue_2_2026-27",
+      image: "assets/wellness-center-vr.jpg",
+      description: "Headsets at The Meadow provide immersive experience",
+    },
+    {
+      title: "News in a minute",
+      href: "#news-in-a-minute",
+      image: "assets/v64-issue-1-news-in-a-minute.png",
+      description: "Quick news stories from every month",
     },
   ],
   multimedia: [
@@ -361,6 +382,11 @@ const portfolioData = {
       href: "https://www.instagram.com/p/DeBD3b0G6S2/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==",
       image: "assets/womens-rights-protest-instagram.jpg",
     },
+    {
+      title: "Hoco Week Day 1",
+      href: "https://www.instagram.com/hhsepitaph/",
+      image: "assets/hoco-week-day-1-instagram.jpg",
+    },
   ],
 };
 
@@ -376,6 +402,7 @@ function sourceLabel(url) {
   if (url.includes("issuu.com")) return "Issuu";
   if (url.includes("drive.google.com")) return "Google Drive";
   if (url.includes("filesusr.com")) return "PDF";
+  if (url === "#news-in-a-minute") return "Column";
   return "The Epitaph";
 }
 
@@ -411,6 +438,14 @@ function createPortfolioCard(item, type) {
   link.rel = "noreferrer";
   link.textContent = type === "social" ? "Open post" : "Open work";
   link.setAttribute("aria-label", `Open ${item.title}`);
+  if (item.href.startsWith("#")) {
+    link.removeAttribute("target");
+    link.removeAttribute("rel");
+    link.addEventListener("click", (event) => {
+      event.preventDefault();
+      openArchive();
+    });
+  }
 
   meta.append(format, source);
   body.append(meta, title, description, link);
@@ -471,6 +506,23 @@ function activateTab(type) {
 
 document.querySelectorAll(".portfolio-tab").forEach((tab) => {
   tab.addEventListener("click", () => activateTab(tab.dataset.tab));
+});
+
+const archiveDialog = document.getElementById("nim-dialog");
+
+function openArchive() {
+  if (typeof archiveDialog.showModal === "function") archiveDialog.showModal();
+  else archiveDialog.setAttribute("open", "");
+}
+
+function closeArchive() {
+  if (typeof archiveDialog.close === "function") archiveDialog.close();
+  else archiveDialog.removeAttribute("open");
+}
+
+archiveDialog.querySelector(".nim-close").addEventListener("click", closeArchive);
+archiveDialog.addEventListener("click", (event) => {
+  if (event.target === archiveDialog) closeArchive();
 });
 
 renderPortfolio();
